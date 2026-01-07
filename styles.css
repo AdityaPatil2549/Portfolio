@@ -58,6 +58,7 @@ body {
     position: sticky;
     top: 0;
     background: rgba(15, 23, 42, 0.95);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-border);
     z-index: 100;
@@ -260,21 +261,22 @@ body {
 }
 
 
-}
-
 /* ============================================================================
    ABOUT SECTION
    ============================================================================ */
+
 .about {
     padding: var(--spacing-xl) var(--spacing-md);
     background-color: var(--color-card);
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 }
+
 .about h2 {
     font-size: 2rem;
     margin-bottom: var(--spacing-lg);
 }
+
 .about p {
     font-size: 1.1rem;
     color: var(--color-text-muted);
@@ -282,22 +284,27 @@ body {
     max-width: 700px;
 }
 
+
 /* ============================================================================
    PROJECTS SECTION
    ============================================================================ */
+
 .projects {
     padding: var(--spacing-xl) var(--spacing-md);
 }
+
 .projects h2 {
     font-size: 2rem;
     margin-bottom: var(--spacing-xl);
     text-align: center;
 }
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--spacing-lg);
 }
+
 .project-card {
     background-color: var(--color-card);
     border: 1px solid var(--color-border);
@@ -305,11 +312,13 @@ body {
     padding: var(--spacing-lg);
     transition: var(--transition);
 }
+
 .project-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
     border-color: var(--color-accent);
 }
+
 .project-header {
     display: flex;
     justify-content: space-between;
@@ -317,15 +326,18 @@ body {
     margin-bottom: var(--spacing-md);
     gap: var(--spacing-md);
 }
+
 .project-header h3 {
     font-size: 1.35rem;
     flex: 1;
 }
+
 .project-links {
     display: flex;
     gap: var(--spacing-sm);
     white-space: nowrap;
 }
+
 .project-links a {
     color: var(--color-accent);
     text-decoration: none;
@@ -333,25 +345,30 @@ body {
     font-weight: 600;
     transition: var(--transition);
 }
+
 .project-links a:hover {
     color: #60a5fa;
     text-decoration: underline;
 }
+
 .project-card p {
     font-size: 0.95rem;
     line-height: 1.7;
     margin-bottom: var(--spacing-md);
     color: var(--color-text-muted);
 }
+
 .project-card p strong {
     color: var(--color-text);
 }
+
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-xs);
     margin-top: var(--spacing-lg);
 }
+
 .tech-tag {
     background-color: rgba(59, 130, 246, 0.1);
     color: var(--color-accent);
@@ -360,88 +377,103 @@ body {
     font-size: 0.85rem;
     border: 1px solid rgba(59, 130, 246, 0.2);
 }
+
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
-    
     .project-header {
         flex-direction: column;
     }
-    
     .project-links {
         width: 100%;
     }
 }
 
+
 /* ============================================================================
    SKILLS SECTION
    ============================================================================ */
+
 .skills {
     padding: var(--spacing-xl) var(--spacing-md);
     background-color: var(--color-card);
 }
+
 .skills h2 {
     font-size: 2rem;
     margin-bottom: var(--spacing-xl);
     text-align: center;
 }
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
 }
+
 .skill-category {
     background-color: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg);
 }
+
 .skill-category h3 {
     font-size: 1.25rem;
     margin-bottom: var(--spacing-md);
     color: var(--color-accent);
 }
+
 .skill-category ul {
     list-style: none;
 }
+
 .skill-category li {
     padding: 0.5rem 0;
     color: var(--color-text-muted);
 }
+
 .skill-category li:before {
     content: "→ ";
     color: var(--color-accent);
     margin-right: var(--spacing-xs);
 }
+
 @media (max-width: 768px) {
     .skills-grid {
         grid-template-columns: 1fr;
     }
 }
 
+
 /* ============================================================================
    CONTACT SECTION
    ============================================================================ */
+
 .contact {
     padding: var(--spacing-xl) var(--spacing-md);
     text-align: center;
 }
+
 .contact h2 {
     font-size: 2rem;
     margin-bottom: var(--spacing-md);
 }
+
 .contact>p {
     font-size: 1.1rem;
     color: var(--color-text-muted);
     margin-bottom: var(--spacing-lg);
 }
+
 .contact-methods {
     display: flex;
     justify-content: center;
     gap: var(--spacing-lg);
     flex-wrap: wrap;
 }
+
 .contact-link {
     display: inline-block;
     background-color: var(--color-card);
@@ -452,25 +484,28 @@ body {
     transition: var(--transition);
     border: 1px solid var(--color-border);
 }
+
 .contact-link:hover {
     background-color: var(--color-accent);
     color: white;
     border-color: var(--color-accent);
     transform: translateY(-3px);
 }
+
 @media (max-width: 768px) {
     .contact-methods {
         flex-direction: column;
     }
-    
     .contact-link {
         width: 100%;
     }
 }
 
+
 /* ============================================================================
    FOOTER
    ============================================================================ */
+
 .footer {
     background-color: var(--color-card);
     border-top: 1px solid var(--color-border);
@@ -480,9 +515,11 @@ body {
     font-size: 0.9rem;
 }
 
+
 /* ============================================================================
    ACCESSIBILITY & PERFORMANCE
    ============================================================================ */
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01ms !important;
@@ -491,7 +528,9 @@ body {
     }
 }
 
+
 /* Print styles */
+
 @media print {
     .navbar,
     .contact,
