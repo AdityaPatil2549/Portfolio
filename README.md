@@ -1,200 +1,211 @@
-# Aditya Kumar - Portfolio
+# Aditya Yuvraj Patil - Portfolio
 
-A professional, fast-loading portfolio showcasing full-stack development work with real projects that solve actual problems.
+A professional, responsive portfolio showcasing my work as a B.Tech AIML student and full-stack developer specializing in web applications with AI-driven features.
 
-## 🎯 Key Features
+**Live Portfolio:** https://aditiyapatil2549.github.io/Portfolio
 
-✅ **Clear Role Identity** - Full Stack Developer (not "student")  
-✅ **3 Strong Projects** - Real problems, real solutions, proven results  
-✅ **One-Click Resume Download** - PDF download in header  
-✅ **Social Links** - GitHub + LinkedIn clearly visible  
-✅ **Mobile-First Design** - Fully responsive, <2s load time  
-✅ **Professional Design** - Clean, minimal, high contrast  
-✅ **Live Demos** - All projects have demo links  
-✅ **Proper SEO** - Meta tags, Open Graph, structured data  
+## 👋 About Me
 
-## 📁 Project Structure
+Second-year B.Tech student specializing in Artificial Intelligence and Machine Learning with strong foundations in Python, full-stack web development, and AI fundamentals. I've built and deployed a full-stack e-commerce platform with AI-driven features. Passionate about applying analytical thinking and engineering skills to solve real-world technical problems.
+
+- 📍 **Location:** Pune, Maharashtra  
+- 📞 **Phone:** 9860850829  
+- 📧 **Email:** adityapatil2549@gmail.com  
+- 🎓 **Education:** B.Tech AIML (2nd Year) - Zeal College of Engineering and Research, CGPA: 8.00  
+- 🔗 **GitHub:** [AdityaPatil2549](https://github.com/AdityaPatil2549)  
+- 💼 **LinkedIn:** [aditya-patil-02a301332](https://linkedin.com/in/aditya-patil-02a301332)
+
+## 🚀 Featured Project
+
+### Glow-core – Full-Stack E-Commerce Platform
+
+**Problem:** Users needed an intuitive e-commerce platform with intelligent product discovery and personalized recommendations.
+
+**Solution:** Developed a full-stack e-commerce application featuring:
+- AI-powered product search and personalized recommendations
+- Advanced product catalog with filtering capabilities
+- Wishlist and cart management
+- Multi-step secure checkout flow
+- Integrated user authentication with profile management
+- Order history tracking
+
+**Tech Stack:** React, TypeScript, Firebase, MongoDB
+
+**Result:** Validated through real-user testing and faculty evaluation. Successfully deployed with AI-driven personalization features.
+
+**Repository:** [GitHub Link](https://github.com/AdityaPatil2549)
+
+## 💻 Technical Skills
+
+### Programming Languages
+- Python
+- C / C++
+- Object-Oriented Programming
+- Data Structures (Basic)
+
+### Web Technologies
+- React / TypeScript (TSX)
+- HTML / CSS
+- JSON APIs
+- Full-Stack Development
+
+### Databases & Tools
+- MongoDB
+- Firebase
+- Git / GitHub
+- Machine Learning Fundamentals
+
+## 🏆 Certifications
+
+- **Microsoft Learn** – Introduction to Machine Learning Concepts
+- **Microsoft Learn** – Introduction to Generative AI and Agents
+- **Microsoft Learn** – Model Selection and Deployment using Azure AI Foundry
+
+## 🎯 Hackathons & Activities
+
+### Smart India Hackathon 2025
+- **Role:** Frontend Developer
+- **Achievement:** Qualified as College Finalist in internal evaluation round
+
+### DataQuest Hackathon (IIT Kharagpur)
+- **Role:** Participant
+- **Platform:** Unstop (Online Round)
+
+## 🎨 Areas of Interest
+
+Artificial Intelligence, Machine Learning, Software Development, Web Technologies, Problem Solving
+
+## 📁 Repository Structure
 
 ```
 Portfolio/
-├── index.html          # Main portfolio page
-├── styles.css          # Mobile-first responsive styles
-├── README.md           # This file
+├── index.html              # Main portfolio page
+├── styles.css              # Mobile-first responsive styles
+├── README.md               # This file
 ├── assets/
-│   └── Aditya_Resume.pdf  # Your resume (for download)
+│   ├── profile.jpg         # Professional photo
+│   └── Aditya_Resume.pdf   # Resume (downloadable)
 └── .github/
     └── workflows/
-        └── deploy.yml    # GitHub Pages deployment
+        └── deploy.yml      # GitHub Pages auto-deployment
 ```
 
-## 🚀 Quick Start
+## ⚡ Features
 
-### Local Development
-1. Open `index.html` in your browser (no build needed)
-2. Edit content directly in the HTML file
-3. Refresh to see changes
+✅ **Responsive Design** - Works on all devices (mobile-first)  
+✅ **Professional Photo** - Circular profile image with hover effects  
+✅ **Resume Download** - One-click PDF download  
+✅ **Project Showcase** - Glow-core with Problem → Solution → Result format  
+✅ **Social Links** - GitHub, LinkedIn, and Email (all clickable)  
+✅ **SEO Optimized** - Meta tags, Open Graph, proper page titles  
+✅ **Fast Loading** - <500ms load time, optimized assets  
+✅ **GitHub Pages Deployment** - Auto-deploys on every push  
 
-### File Changes Needed
+## 🛠️ Local Development
 
-**Update these in `index.html`:**
-- Line 19: Change `description` and `og:description` meta tags
-- Line 103: Replace `https://github.com` with your GitHub URL
-- Line 108: Replace `https://linkedin.com` with your LinkedIn URL  
-- Line 113: Replace `aditya@example.com` with your email
-- Line 163: Update your about section
-- Lines 172-223: Update the 3 projects (Problem → Solution → Result)
-- Lines 232-263: Keep skills or customize based on your expertise
-- Line 314: Update email link
-- Line 315-316: Update GitHub/LinkedIn links
+### Prerequisites
+- No build tools needed - pure HTML/CSS/JavaScript
+- A modern web browser
+- Git (for version control)
 
-## 🌐 Deployment (Choose One)
+### Setup
 
-### Option 1: GitHub Pages (FREE, Recommended)
-
-1. **Create a GitHub repository:**
+1. **Clone the repository:**
    ```bash
-   # Initialize git
-   git init
+   git clone https://github.com/AdityaPatil2549/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Open in browser:**
+   - Double-click `index.html` or
+   - Use a local server:
+     ```bash
+     python -m http.server 8000
+     # or
+     npx http-server
+     ```
+
+3. **Edit content:**
+   - Modify `index.html` for content
+   - Edit `styles.css` for styling
+   - Refresh browser to see changes
+
+## 🚀 Deployment
+
+### GitHub Pages (Currently Active)
+
+**Status:** ✅ Live at https://aditiyapatil2549.github.io/Portfolio
+
+**How it works:**
+1. Push changes to `main` branch
+2. GitHub Actions automatically deploys to GitHub Pages
+3. Site updates within 1-2 minutes
+
+**Workflow file:** `.github/workflows/deploy.yml`
+
+### Customization
+
+To customize the portfolio:
+
+1. **Update Personal Info:**
+   - Edit lines in `index.html` for name, bio, email, links
+   - Replace profile image in `assets/profile.jpg`
+
+2. **Modify Projects:**
+   - Update project cards in `index.html`
+   - Keep the "Problem → Solution → Result" format
+
+3. **Change Colors:**
+   - Edit CSS custom properties in `styles.css`:
+   ```css
+   :root {
+     --color-accent: #3b82f6;        /* Primary blue */
+     --color-bg: #0f172a;            /* Dark background */
+     --color-text: #e2e8f0;          /* Light text */
+   }
+   ```
+
+4. **Deploy Changes:**
+   ```bash
    git add .
-   git commit -m "Initial portfolio commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/portfolio.git
-   git push -u origin main
+   git commit -m "Update portfolio"
+   git push origin main
    ```
 
-2. **Enable GitHub Pages:**
-   - Go to repo Settings → Pages
-   - Source: Deploy from branch
-   - Branch: `main`, folder: `/ (root)`
-   - Save
+## 📊 Performance
 
-3. **Your site is live at:** `https://YOUR-USERNAME.github.io/portfolio`
+- **Load Time:** <500ms
+- **Mobile Friendly:** 100% responsive
+- **SEO Score:** Optimized with meta tags
+- **Accessibility:** WCAG AA color contrast
+- **Bundle Size:** Single CSS file, no frameworks
 
-### Option 2: Custom Domain (Optional)
+## 🔐 Security & Privacy
 
-1. **Add CNAME file** at root:
-   ```
-   your-domain.com
-   ```
+- ✅ HTTPS enabled (via GitHub Pages)
+- ✅ No external analytics by default
+- ✅ No tracking cookies
+- ✅ All assets self-hosted
 
-2. **Update DNS records** with your domain provider:
-   ```
-   CNAME your-domain.com -> YOUR-USERNAME.github.io
-   ```
+## 📞 Contact
 
-3. **Enable HTTPS** in GitHub Pages settings
+- **Email:** adityapatil2549@gmail.com
+- **GitHub:** [AdityaPatil2549](https://github.com/AdityaPatil2549)
+- **LinkedIn:** [aditya-patil-02a301332](https://linkedin.com/in/aditya-patil-02a301332)
 
-### Option 3: Vercel (Alternative)
+## 📝 License
 
-1. Connect GitHub repo to [Vercel](https://vercel.com)
-2. Auto-deploys on every push
-3. Get free HTTPS + custom domain support
+This portfolio is open source and available for personal use. Feel free to use it as a template for your own portfolio!
 
-## ✨ Content Checklist
+## 🤝 Support
 
-- [ ] Replace all `https://example.com` links with real demo URLs
-- [ ] Update email address
-- [ ] Add real GitHub links to projects
-- [ ] Verify all social links work
-- [ ] Ensure resume PDF is in `assets/` folder
-- [ ] Test on mobile (use DevTools)
-- [ ] Test all links and downloads
-- [ ] Verify load time (should be <2s)
-
-## 🎨 Customization
-
-### Change Colors
-Edit `:root` variables in `styles.css`:
-```css
---color-accent: #3b82f6;        /* Primary blue */
---color-bg: #0f172a;            /* Dark background */
---color-text: #e2e8f0;          /* Light text */
-```
-
-### Add Dark/Light Mode
-Add this to HTML `<head>`:
-```html
-<script>
-  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
-</script>
-```
-
-### Add Google Analytics
-Add before `</head>`:
-```html
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_ID');
-</script>
-```
-
-## 📋 Project Writing Guide
-
-**Formula:** Problem → Solution → Tech → Result
-
-**Bad:** "Used React, Node, MongoDB"  
-**Good:** "Built real-time dashboard that reduced analysis time by 80% for 50+ users"
-
-**Template:**
-```
-Problem: [What was missing/broken]
-Solution: [How you fixed it]
-Tech: [Stack used]
-Result: [Measurable impact - users, revenue, efficiency gain]
-```
-
-## ⚡ Performance
-
-- **HTML only** - No heavy frameworks
-- **CSS optimized** - Single stylesheet, minimal selectors
-- **Images** - Use compressed WebP when needed
-- **Load time** - Target: <1s (currently achieves <500ms)
-
-## 🔒 Best Practices
-
-✅ Mobile-first responsive design  
-✅ Semantic HTML  
-✅ Accessible color contrast (WCAG AA)  
-✅ No unnecessary animations  
-✅ Privacy-friendly (no tracking by default)  
-✅ SEO-optimized meta tags  
-
-## 📊 Next Steps
-
-1. **Deploy** using GitHub Pages
-2. **Monitor** with Google Analytics
-3. **Update** projects as you build new ones
-4. **Share** with recruiters/employers
-5. **Iterate** based on feedback
-
-## 🛠️ Troubleshooting
-
-**Resume PDF not downloading?**
-- Ensure file path is correct: `./assets/Aditya_Resume.pdf`
-- File must be in the same deployment
-
-**Links opening but showing 404?**
-- Update GitHub/LinkedIn/demo URLs
-- Remove `https://` placeholder URLs
-
-**Mobile layout broken?**
-- Check viewport meta tag is present
-- Test in DevTools mobile view
-- Verify CSS media queries
-
-## 📞 Support
-
-For deployment issues:
-- GitHub Pages: [docs.github.com/pages](https://docs.github.com/pages)
-- Vercel: [vercel.com/docs](https://vercel.com/docs)
-- DNS issues: Contact your domain provider
+For issues or questions:
+1. Check the [GitHub Issues](https://github.com/AdityaPatil2549/Portfolio/issues)
+2. Review the deployment guide in this README
+3. Refer to [GitHub Pages Documentation](https://docs.github.com/pages)
 
 ---
 
-**Remember:** A simple portfolio with strong projects > fancy portfolio with weak content
-
-Ship it! 🚀
+**Last Updated:** January 7, 2026  
+**Portfolio Version:** 1.0  
+**Status:** ✅ Production Ready
